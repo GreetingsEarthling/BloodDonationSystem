@@ -1,7 +1,7 @@
 # Blood Donation System
 
 ## Project Overview
-The **Blood Donation System** is a simple Java-based console application that simulates a blood bank's operations. The project allows users to interact as different roles, such as an **Admin**, **Donor**, or **Patient**, each having unique functionalities. The Admin can view blood packet availability, Donors can donate blood, and Patients can request compatible blood packets.
+The **Blood Donation System** is a Java-based console application that simulates a blood bank's operations. The project allows users to interact as different roles, such as an **Admin**, **Donor**, or **Patient**, each having unique functionalities. The Admin can view blood packet availability, Donors can donate blood, and Patients can request compatible blood packets.
 
 ---
 
@@ -30,7 +30,7 @@ The **Blood Donation System** is a simple Java-based console application that si
    - **Exit** (Quit the application)
    
 2. **Admin Operations**:
-   - Upon providing the correct password, the admin can view the status of all blood packets available in the bank.
+   - Upon providing the correct password ("catdog"), the admin can view the status of all blood packets available in the bank.
 
 3. **Donor Operations**:
    - The donor provides personal details and selects the blood group they wish to donate to.
@@ -53,5 +53,3 @@ The **Blood Donation System** is a simple Java-based console application that si
 - **Admin**: Handles the login process and displays the current blood inventory.
 - **Donor**: Allows for inputting donor information and updating the blood inventory.
 - **Patient**: Facilitates input of patient information and checks blood compatibility for requests.
-
----
